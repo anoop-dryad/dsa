@@ -1,12 +1,6 @@
 package com.dsa.datastructures;
 
 public class PalindromeNumbers {
-    public static void main(String[] args) {
-        int input = args.length > 0 ? Integer.parseInt(args[0]) : 0;
-        boolean isPalindrome = isNumberPalindrome(input);
-        System.out.printf("Given number is %s%n", isPalindrome ? "Palindrome" : "not Palindrome");
-    }
-
     public static boolean isNumberPalindrome(int inputNumber) {
         int reversedNumber = 0;
         int tempNumber = inputNumber;
