@@ -1,4 +1,4 @@
-def count_digits(number):
+def count_digits(number:int):
     """
     Count the number of digits in a given number.
     Parameters:
