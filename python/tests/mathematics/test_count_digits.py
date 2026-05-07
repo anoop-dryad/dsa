@@ -1,5 +1,5 @@
 import pytest
-from src.data_structures.get_digits import count_digits
+from python.src.data_structures.mathematics.get_digits import count_digits
 
 
 @pytest.mark.parametrize(

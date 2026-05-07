@@ -1,4 +1,4 @@
-from src.data_structures.is_number_palindrome import (
+from python.src.data_structures.mathematics.is_number_palindrome import (
     check_if_given_number_is_palindrome,
     check_if_given_number_is_palindrome_half_way,
 )

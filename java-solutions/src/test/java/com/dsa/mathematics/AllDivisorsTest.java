@@ -1,15 +1,14 @@
-package com.dsa;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+package com.dsa.mathematics;
 
 import java.util.List;
 import java.util.stream.Stream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import com.dsa.datastructures.AllDivisors;
+import com.dsa.datastructures.mathematics.AllDivisors;
 
 public class AllDivisorsTest {
 

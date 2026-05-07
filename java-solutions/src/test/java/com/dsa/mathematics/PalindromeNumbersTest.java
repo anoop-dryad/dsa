@@ -1,10 +1,10 @@
-package com.dsa;
+package com.dsa.mathematics;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import com.dsa.datastructures.PalindromeNumbers;
+import com.dsa.datastructures.mathematics.PalindromeNumbers;
 
 public class PalindromeNumbersTest {
 

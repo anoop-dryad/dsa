@@ -1,4 +1,4 @@
-package com.dsa.datastructures;
+package com.dsa.datastructures.mathematics;
 
 public class TrailingZerosInFactorial {
     /*

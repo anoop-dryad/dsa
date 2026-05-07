@@ -1,15 +1,14 @@
-package com.dsa;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+package com.dsa.mathematics;
 
 import java.math.BigInteger;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import com.dsa.datastructures.Factorial;
+import com.dsa.datastructures.mathematics.Factorial;
 
 public class FactorialTest {
 

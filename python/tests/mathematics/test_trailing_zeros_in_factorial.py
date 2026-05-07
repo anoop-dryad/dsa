@@ -1,5 +1,5 @@
 import pytest
-from src.data_structures.trailing_zeros_in_factorial import (
+from python.src.data_structures.mathematics.trailing_zeros_in_factorial import (
     get_trailing_zeros_in_factorial,
 )
 
