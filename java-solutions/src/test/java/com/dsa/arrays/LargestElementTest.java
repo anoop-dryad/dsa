@@ -21,7 +21,8 @@ public class LargestElementTest {
         return Stream.of(
             Arguments.of(IntStream.of(1,2,3,4,5,6,7,8,9).toArray(), 9),
             Arguments.of(IntStream.of(19,2,23,44,25,56,78,38,39).toArray(), 78),
-            Arguments.of(IntStream.of(11,32,43,24,65,16,77,38,99).toArray(), 99)
+            Arguments.of(IntStream.of(11,32,43,24,65,16,77,38,99).toArray(), 99),
+            Arguments.of(IntStream.of(1, 2, 2, 2).toArray(), 2)
         );
     }
 }
